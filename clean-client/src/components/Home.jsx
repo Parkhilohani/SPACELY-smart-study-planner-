@@ -1,5 +1,6 @@
 import React from "react";
-import "../Home.css";
+import bgImage from '../assets/h.png';
+import "./styles.css/Home.css";
 import { useNavigate } from "react-router-dom";
 import { FaChartLine } from "react-icons/fa";
 import { GiBrain } from "react-icons/gi";
@@ -32,7 +33,12 @@ export default function Home() {
   return (
     <div className="home-page">
       {/* Hero Section */}
-      <section className="hero">
+      <section 
+        className="hero"
+        style={{
+          background: `url(${bgImage}) center center / cover no-repeat`,
+        }}
+      >
         <h1>From Procrastination to Productivity</h1>
         <p className="tagline">Your personal smart study assistant.</p>
         <button className="hero-btn" onClick={handleGetStarted}>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import "../DWidgets.css";
+import "./styles.css/DWidgets.css";
 
 export default function DWidgets({ cards }) {
   const [notes, setNotes] = useState([]);

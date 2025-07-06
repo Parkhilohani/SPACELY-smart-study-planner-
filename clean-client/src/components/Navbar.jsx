@@ -1,7 +1,7 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import '../Navbar.css';
-import logo from "../assest/logo.png";
+import './styles.css/Navbar.css';
+import logo from "../assets/logo.png";
 
 export default function Navbar({ toggleSidebar }) {
   const location = useLocation();

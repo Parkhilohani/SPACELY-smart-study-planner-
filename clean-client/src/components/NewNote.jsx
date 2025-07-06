@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import "../NewNote.css";
+import "./styles.css/NewNote.css";
 
 export default function NewNote({ darkMode }) {
   const [noteText, setNoteText] = useState("");

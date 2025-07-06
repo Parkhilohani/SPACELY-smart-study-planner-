@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
-import "../Calendar.css";
+import "./styles.css/Calendar.css";
 
 export default function StudyCalendar({ cards }) {
   const [hoveredDate, setHoveredDate] = useState(null);

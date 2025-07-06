@@ -1,5 +1,5 @@
 import React from 'react' 
-import '../Setting.css';
+import './styles.css/Setting.css';
 
 export default function Setting({ darkMode, setDarkMode, emailNotifications, setEmailNotifications}){
     return(

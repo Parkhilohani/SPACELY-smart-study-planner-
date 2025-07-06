@@ -1,5 +1,5 @@
 import React from "react";
-import "../Alltasks.css";
+import "./styles.css/Alltasks.css";
 
 // ✅ Helper function to format date
 const formatDate = (date) => {

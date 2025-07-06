@@ -1,7 +1,7 @@
 import React,{useRef} from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaHome, FaPlus, FaTasks, FaCalendarAlt, FaCog, FaSignOutAlt } from 'react-icons/fa';
-import '../Sidebar.css';
+import './styles.css/Sidebar.css';
 
 const Sidebar = ({ onSelect, isOpen}) => {
   const menuRef = useRef();

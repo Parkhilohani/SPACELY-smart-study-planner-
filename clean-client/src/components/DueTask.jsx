@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../DueTask.css"; 
+import "./styles.css/DueTask.css"; 
 
 const DueTask = ({ userId }) => {
   const [tasks, setTasks] = useState([]);

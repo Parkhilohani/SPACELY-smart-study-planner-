@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import "../LoginSingup.css";
+import "./styles.css/LoginSingup.css";
 
 export default function Signup() {
   const navigate = useNavigate();

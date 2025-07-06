@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from 'axios';
-import "../Addtask.css";
+import "./styles.css/Addtask.css";
 
 export default function Addtask({ cards, onAddTopic }) {
   const [isFlipped, setIsFlipped] = useState(false);

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 // import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import Sidebar from "./Sidebar";
-import "../Dashboard.css";
+import "./styles.css/Dashboard.css";
 import Addtask from "./Addtask";
 import Alltasks from "./Alltasks";
 import Calendar from "./Calendar";
