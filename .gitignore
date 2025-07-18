@@ -9,7 +9,6 @@ server/package-lock.json
 clean-client/node_modules/
 clean-client/.env
 clean-client/build/
-clean-client/.DS_Store
 clean-client/package-lock.json
 
 # System files
